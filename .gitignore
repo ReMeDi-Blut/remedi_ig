@@ -1,1 +1,7 @@
-/data_processing/.env
+.DS_Store
+Thumbs.db
+/fsh-generated
+/input-cache
+/output
+/temp
+/template
