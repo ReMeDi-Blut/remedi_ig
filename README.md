@@ -2,6 +2,10 @@
 
 Dieses Repository wird zur Erstellen des FHIR Implementation Guides für das Bluttransfusionen verwendet.
 
+Der Implmentation Guide Draft ist auf GitHub öffentlich erreichbar
+
+https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/index.html 
+
 
 ## FHIR Data Processing
 
@@ -18,10 +22,15 @@ Weitere hilfreiche Tool fidnen sich im [FSH GitHub](https://github.com/FSHSchool
 
 ### Projekt SetUp
 
-sushi init
+ Das wurde bereist mit `sushi init` erstellt.
 
-sushi .
+ Änderungen werden in dem `input` ordner vorgenommen.\
+ Wenn die Änderungen vorgenommen wurde, können die Profile etc. mit `sushi .` generiert werden. Diese finden sich dann in dem ORdner `fsg-generated`
 
 
+## Deployment
 
-repo for creating profiles and ig
+Der IG wird über dem FHIR Auto IG Builder auf GitHub veröffentlicht.\
+Bei jedem Commit in einer Branch wird der IG aktualisiert.
+
+Der IG ist unter https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/index.html erreichbar 
