@@ -13,7 +13,7 @@ Description: "Ein Profil für Observationen, die Blutzellen messen, mit einem Bi
 Instance: CustomObservationBloodCellsExample
 InstanceOf: CustomObservationBloodCells
 Description: "example"
-* code = $loinc#26464-8 "Leukocytes"
+* code = $loinc#26464-8 "Leukocytes [#/volume] in Blood"
 * valueQuantity.value = 0.1
 * valueQuantity.unit = "/nl"
 * status = #final

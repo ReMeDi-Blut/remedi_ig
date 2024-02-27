@@ -1,6 +1,4 @@
-Output File                                              Name                                Type      FSH File               Lines
-Observation-CustomObservationBloodCellsExample.json      CustomObservationBloodCellsExample  Instance  haemozyten_profil.fsh  13 - 19
-Patient-PatientExample.json                              PatientExample                      Instance  patient.fsh            9 - 13
-StructureDefinition-MyPatient.json                       MyPatient                           Profile   patient.fsh            4 - 7
-StructureDefinition-custom-observation-blood-cells.json  CustomObservationBloodCells         Profile   haemozyten_profil.fsh  3 - 11
-ValueSet-haemozyten.json                                 Haemozyten                          ValueSet  haemozyten.fsh         1 - 20
+Output File                                              Name                                Type      FSH File                        Lines
+Observation-CustomObservationBloodCellsExample.json      CustomObservationBloodCellsExample  Instance  profiles\haemozyten_profil.fsh  13 - 19
+StructureDefinition-custom-observation-blood-cells.json  CustomObservationBloodCells         Profile   profiles\haemozyten_profil.fsh  3 - 11
+ValueSet-haemozyten.json                                 Haemozyten                          ValueSet  valuesets\haemozyten.fsh        1 - 20

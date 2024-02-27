@@ -46,22 +46,6 @@
         "name": "CustomObservationBloodCellsExample",
         "description": "example",
         "exampleCanonical": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/custom-observation-blood-cells"
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/MyPatient"
-        },
-        "name": "MyPatient",
-        "description": "An example profile of the Patient resource.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Patient/PatientExample"
-        },
-        "name": "PatientExample",
-        "description": "An example of a patient with a license to krill.",
-        "exampleCanonical": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/MyPatient"
       }
     ],
     "page": {
