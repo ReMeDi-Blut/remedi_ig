@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.blood
-canonical: http://urloffen.org
+canonical: https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig
 name: Bluttransfusionen Implementation Guide
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
@@ -17,7 +17,7 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: ReMeDi Blut Projektgruppe
-  url: http://publisheroffen.org
+  url: https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the

@@ -1,11 +1,19 @@
 [
   {
+    "outputFile": "Observation-CustomObservationBloodCellsExample.json",
+    "fshName": "CustomObservationBloodCellsExample",
+    "fshType": "Instance",
+    "fshFile": "haemozyten_profil.fsh",
+    "startLine": 13,
+    "endLine": 19
+  },
+  {
     "outputFile": "Patient-PatientExample.json",
     "fshName": "PatientExample",
     "fshType": "Instance",
     "fshFile": "patient.fsh",
     "startLine": 9,
-    "endLine": 14
+    "endLine": 13
   },
   {
     "outputFile": "StructureDefinition-MyPatient.json",
@@ -16,10 +24,18 @@
     "endLine": 7
   },
   {
+    "outputFile": "StructureDefinition-custom-observation-blood-cells.json",
+    "fshName": "CustomObservationBloodCells",
+    "fshType": "Profile",
+    "fshFile": "haemozyten_profil.fsh",
+    "startLine": 3,
+    "endLine": 11
+  },
+  {
     "outputFile": "ValueSet-haemozyten.json",
     "fshName": "Haemozyten",
     "fshType": "ValueSet",
-    "fshFile": "VitalSignDE_Body_Weight_Loinc.fsh",
+    "fshFile": "haemozyten.fsh",
     "startLine": 1,
     "endLine": 20
   }

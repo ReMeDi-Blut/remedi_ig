@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "fhir.blood",
-  "url": "http://urloffen.org/ImplementationGuide/fhir.blood",
+  "url": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/ImplementationGuide/fhir.blood",
   "version": "0.1.0",
   "name": "BluttransfusionenImplementationGuide",
   "status": "draft",
@@ -12,7 +12,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "http://publisheroffen.org"
+          "value": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig"
         }
       ]
     }
@@ -33,6 +33,22 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/custom-observation-blood-cells"
+        },
+        "name": "Custom Observation für Blutzellen",
+        "description": "Ein Profil für Observationen, die Blutzellen messen, mit einem Binding zu einem spezifischen ValueSet.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/CustomObservationBloodCellsExample"
+        },
+        "name": "CustomObservationBloodCellsExample",
+        "description": "example",
+        "exampleCanonical": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/custom-observation-blood-cells"
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/MyPatient"
         },
         "name": "MyPatient",
@@ -45,7 +61,7 @@
         },
         "name": "PatientExample",
         "description": "An example of a patient with a license to krill.",
-        "exampleCanonical": "http://urloffen.org/StructureDefinition/MyPatient"
+        "exampleCanonical": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/MyPatient"
       }
     ],
     "page": {

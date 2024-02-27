@@ -9,6 +9,5 @@ Description: "An example profile of the Patient resource."
 Instance: PatientExample
 InstanceOf: MyPatient
 Description: "An example of a patient with a license to krill."
-* name
-  * given[0] = "James"
-  * family = "Pond"
+* name.given[0] = "James"
+* name.family = "Pond"

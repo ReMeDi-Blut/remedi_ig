@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "MyPatient",
-  "url": "http://urloffen.org/StructureDefinition/MyPatient",
+  "url": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/MyPatient",
   "name": "MyPatient",
   "status": "draft",
   "description": "An example profile of the Patient resource.",

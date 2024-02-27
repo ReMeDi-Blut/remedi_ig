@@ -3,7 +3,7 @@
   "id": "PatientExample",
   "meta": {
     "profile": [
-      "http://urloffen.org/StructureDefinition/MyPatient"
+      "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/MyPatient"
     ]
   },
   "name": [

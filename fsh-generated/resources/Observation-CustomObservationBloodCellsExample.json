@@ -1,0 +1,23 @@
+{
+  "resourceType": "Observation",
+  "id": "CustomObservationBloodCellsExample",
+  "meta": {
+    "profile": [
+      "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/custom-observation-blood-cells"
+    ]
+  },
+  "valueQuantity": {
+    "value": 0.1,
+    "unit": "/nl"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "26464-8",
+        "system": "http://loinc.org",
+        "display": "Leukocytes"
+      }
+    ]
+  },
+  "status": "final"
+}
