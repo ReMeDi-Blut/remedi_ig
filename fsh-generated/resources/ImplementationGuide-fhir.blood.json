@@ -1,0 +1,74 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.blood",
+  "url": "http://urloffen.org/ImplementationGuide/fhir.blood",
+  "version": "0.1.0",
+  "name": "BluttransfusionenImplementationGuide",
+  "status": "draft",
+  "publisher": "ReMeDi Blut Projektgruppe",
+  "contact": [
+    {
+      "name": "ReMeDi Blut Projektgruppe",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://publisheroffen.org"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.blood",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyPatient"
+        },
+        "name": "MyPatient",
+        "description": "An example profile of the Patient resource.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/PatientExample"
+        },
+        "name": "PatientExample",
+        "description": "An example of a patient with a license to krill.",
+        "exampleCanonical": "http://urloffen.org/StructureDefinition/MyPatient"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/VitalSignDE-Body-Weight-Loinc"
+        },
+        "name": "VitalSignDE_Body_Weight_Loinc",
+        "description": "VitalSignDE_Body_Weight_Loinc enthält Codes zur Kodierung der Messung eines Körpergewichtes (inkl. Gewicht bei der Geburt)",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}
