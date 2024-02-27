@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Haemozyten",
+  "id": "haemozyten",
+  "title": "Alle Blutzelltypen",
+  "description": "Alle Blutzelltypen",
+  "url": "",
+  "version": "1.0.0",
+  "experimental": false,
+  "date": "2024-02-27",
+  "publisher": "FH Dortmund",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "742-7",
+            "display": "Monocytes [#/volume] in Blood by Automated count"
+          },
+          {
+            "code": "26474-7",
+            "display": "Lymphocytes [#/volume] in Blood"
+          },
+          {
+            "code": "26464-8",
+            "display": "Leukocytes [#/volume] in Blood"
+          },
+          {
+            "code": "789-8",
+            "display": "Erythrocytes [#/volume] in Blood by Automated count"
+          },
+          {
+            "code": "26515-7",
+            "display": "Platelets [#/volume] in Blood"
+          },
+          {
+            "code": "26499-4",
+            "display": "Neutrophils [#/volume] in Blood"
+          },
+          {
+            "code": "26449-9",
+            "display": "Eosinophils [#/volume] in Blood"
+          },
+          {
+            "code": "26444-0",
+            "display": "Basophils [#/volume] in Blood"
+          }
+        ]
+      }
+    ]
+  }
+}

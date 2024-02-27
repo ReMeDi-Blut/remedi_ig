@@ -1,16 +1,20 @@
-ValueSet: VitalSignDE_Body_Weight_Loinc
-Id: VitalSignDE-Body-Weight-Loinc
-Title: "VitalSignDE_Body_Weight_Loinc"
-Description: "VitalSignDE_Body_Weight_Loinc enthält Codes zur Kodierung der Messung eines Körpergewichtes (inkl. Gewicht bei der Geburt)"
-* ^status = #active
-* ^url = "http://fhir.de/ValueSet/VitalSignDE_Body_Weight_Loinc"
-* ^version = "1.5.0-ballot"
+ValueSet: Haemozyten
+Id: haemozyten
+Title: "Alle Blutzelltypen"
+Description: "Alle Blutzelltypen"
+* ^status = #draft
+* ^url = ""
+* ^version = "1.0.0"
 * ^experimental = false
-* ^date = "2023-11-30"
-* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^date = "2024-02-27"
+* ^publisher = "FH Dortmund"
 * ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^immutable = false
-* LOINC#29463-7 "Body weight"
-* LOINC#8339-4 "Birth weight Measured"
+* LOINC#742-7 "Monocytes [#/volume] in Blood by Automated count"
+* LOINC#26474-7 "Lymphocytes [#/volume] in Blood"
+* LOINC#26464-8 "Leukocytes [#/volume] in Blood"
+* LOINC#789-8 "Erythrocytes [#/volume] in Blood by Automated count"
+* LOINC#26515-7 "Platelets [#/volume] in Blood"
+* LOINC#26499-4 "Neutrophils [#/volume] in Blood"
+* LOINC#26449-9 "Eosinophils [#/volume] in Blood"
+* LOINC#26444-0 "Basophils [#/volume] in Blood"

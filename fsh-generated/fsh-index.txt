@@ -1,4 +1,4 @@
-Output File                                  Name                           Type      FSH File                           Lines
-Patient-PatientExample.json                  PatientExample                 Instance  patient.fsh                        9 - 14
-StructureDefinition-MyPatient.json           MyPatient                      Profile   patient.fsh                        4 - 7
-ValueSet-VitalSignDE-Body-Weight-Loinc.json  VitalSignDE_Body_Weight_Loinc  ValueSet  VitalSignDE_Body_Weight_Loinc.fsh  1 - 16
+Output File                         Name            Type      FSH File                           Lines
+Patient-PatientExample.json         PatientExample  Instance  patient.fsh                        9 - 14
+StructureDefinition-MyPatient.json  MyPatient       Profile   patient.fsh                        4 - 7
+ValueSet-haemozyten.json            Haemozyten      ValueSet  VitalSignDE_Body_Weight_Loinc.fsh  1 - 20

@@ -25,6 +25,14 @@
     "resource": [
       {
         "reference": {
+          "reference": "ValueSet/haemozyten"
+        },
+        "name": "Alle Blutzelltypen",
+        "description": "Alle Blutzelltypen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/MyPatient"
         },
         "name": "MyPatient",
@@ -38,14 +46,6 @@
         "name": "PatientExample",
         "description": "An example of a patient with a license to krill.",
         "exampleCanonical": "http://urloffen.org/StructureDefinition/MyPatient"
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/VitalSignDE-Body-Weight-Loinc"
-        },
-        "name": "VitalSignDE_Body_Weight_Loinc",
-        "description": "VitalSignDE_Body_Weight_Loinc enthält Codes zur Kodierung der Messung eines Körpergewichtes (inkl. Gewicht bei der Geburt)",
-        "exampleBoolean": false
       }
     ],
     "page": {

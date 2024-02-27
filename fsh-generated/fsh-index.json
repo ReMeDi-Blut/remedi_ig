@@ -16,11 +16,11 @@
     "endLine": 7
   },
   {
-    "outputFile": "ValueSet-VitalSignDE-Body-Weight-Loinc.json",
-    "fshName": "VitalSignDE_Body_Weight_Loinc",
+    "outputFile": "ValueSet-haemozyten.json",
+    "fshName": "Haemozyten",
     "fshType": "ValueSet",
     "fshFile": "VitalSignDE_Body_Weight_Loinc.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 20
   }
 ]
