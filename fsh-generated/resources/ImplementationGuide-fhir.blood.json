@@ -33,6 +33,28 @@
       },
       {
         "reference": {
+          "reference": "BiologicallyDerivedProduct/BeispielBlutspende"
+        },
+        "name": "BeispielBlutspende",
+        "exampleCanonical": "https://fhir.simplifier.net/Blut-Transfusionen/fhir/StructureDefinition/Blutspende"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Blutgruppe"
+        },
+        "name": "Blutgruppe",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/blood-1"
+        },
+        "name": "Blutspende",
+        "description": "Dieses Profil beschreibt eine Blutkonserve als die Ressource BiologicallyDerivedProduct und beinhaltet die wesentlichen Informatonen über die Blutspende",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/custom-observation-blood-cells"
         },
         "name": "Custom Observation für Blutzellen",

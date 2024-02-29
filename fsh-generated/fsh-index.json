@@ -1,11 +1,35 @@
 [
   {
+    "outputFile": "BiologicallyDerivedProduct-BeispielBlutspende.json",
+    "fshName": "BeispielBlutspende",
+    "fshType": "Instance",
+    "fshFile": "profiles\\Blutspende.fsh",
+    "startLine": 54,
+    "endLine": 66
+  },
+  {
     "outputFile": "Observation-CustomObservationBloodCellsExample.json",
     "fshName": "CustomObservationBloodCellsExample",
     "fshType": "Instance",
     "fshFile": "profiles\\haemozyten_profil.fsh",
     "startLine": 13,
     "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-Blutgruppe.json",
+    "fshName": "Blutgruppe",
+    "fshType": "Extension",
+    "fshFile": "profiles\\Blutspende.fsh",
+    "startLine": 47,
+    "endLine": 52
+  },
+  {
+    "outputFile": "StructureDefinition-blood-1.json",
+    "fshName": "Blutspende",
+    "fshType": "Profile",
+    "fshFile": "profiles\\Blutspende.fsh",
+    "startLine": 5,
+    "endLine": 44
   },
   {
     "outputFile": "StructureDefinition-custom-observation-blood-cells.json",

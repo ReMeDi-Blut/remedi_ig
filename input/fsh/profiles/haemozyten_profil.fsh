@@ -6,7 +6,7 @@ Id: custom-observation-blood-cells
 Title: "Custom Observation für Blutzellen"
 Description: "Ein Profil für Observationen, die Blutzellen messen, mit einem Binding zu einem spezifischen ValueSet."
 
-* code from haemozyten 
+* code from haemozyten (required)
 * value[x] only Quantity
 * status 1..1 MS
 
