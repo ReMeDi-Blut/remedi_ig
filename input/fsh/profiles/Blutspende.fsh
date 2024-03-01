@@ -1,7 +1,7 @@
 
 Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
-Alias: $blood-products-value-set = https://fhir.simplifier.net/Blut-Transfusionen/fhir/ValueSet/blood-products-value-set
+Alias: $blood-products-value-set = https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/ValueSet/blood-products-value-set
 Profile: Blutspende
 Parent: BiologicallyDerivedProduct
 Id: blood-1
