@@ -10,7 +10,7 @@ Description: "Dieses Profil beschreibt eine Blutkonserve als die Ressource Biolo
 * ^url = "https://fhir.simplifier.net/Blut-Transfusionen/fhir/StructureDefinition/Blutspende"
 * ^version = "0.9.3"
 * ^status = #draft
-* ^purpose = "Soll hauptsähclich für die Verwendung eines Transfusionsregsiter verwendet werden."
+* ^purpose = "Soll hauptsächlich für die Verwendung eines Transfusionsregsiter verwendet werden."
 //* extension 1..
 //* extension contains Blutgruppe named Konserventyp 0..1
 //* extension[Konserventyp] ^isModifier = false

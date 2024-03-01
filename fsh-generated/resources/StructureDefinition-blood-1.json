@@ -7,7 +7,7 @@
   "name": "Blutspende",
   "status": "draft",
   "description": "Dieses Profil beschreibt eine Blutkonserve als die Ressource BiologicallyDerivedProduct und beinhaltet die wesentlichen Informatonen über die Blutspende",
-  "purpose": "Soll hauptsähclich für die Verwendung eines Transfusionsregsiter verwendet werden.",
+  "purpose": "Soll hauptsächlich für die Verwendung eines Transfusionsregsiter verwendet werden.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
