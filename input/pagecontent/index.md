@@ -4,5 +4,5 @@ Dieser Implementation Guide definiert Profile für das Abbilden von Bluttransfus
 
 Aktuell abgebildete Elemente:
 
-- Patient
+- Blutsepnde
 

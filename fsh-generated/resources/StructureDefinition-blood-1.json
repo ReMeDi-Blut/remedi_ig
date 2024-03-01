@@ -54,7 +54,7 @@
         "mustSupport": false,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://fhir.simplifier.net/Blut-Transfusionen/fhir/ValueSet/blood-products-value-set"
+          "valueSet": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/ValueSet/blood-products-value-set"
         }
       },
       {
