@@ -25,18 +25,18 @@
     "resource": [
       {
         "reference": {
-          "reference": "ValueSet/haemozyten"
-        },
-        "name": "Alle Blutzelltypen",
-        "description": "Alle Blutzelltypen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "BiologicallyDerivedProduct/BeispielBlutspende"
         },
         "name": "BeispielBlutspende",
         "exampleCanonical": "https://fhir.simplifier.net/Blut-Transfusionen/fhir/StructureDefinition/Blutspende"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/blood-products-value-set"
+        },
+        "name": "BloodProductsValueSet",
+        "description": "ValueSet for Blood Products including SNOMED CT and LOINC codes.",
+        "exampleBoolean": false
       },
       {
         "reference": {
@@ -52,22 +52,6 @@
         "name": "Blutspende",
         "description": "Dieses Profil beschreibt eine Blutkonserve als die Ressource BiologicallyDerivedProduct und beinhaltet die wesentlichen Informatonen über die Blutspende",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/custom-observation-blood-cells"
-        },
-        "name": "Custom Observation für Blutzellen",
-        "description": "Ein Profil für Observationen, die Blutzellen messen, mit einem Binding zu einem spezifischen ValueSet.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Observation/CustomObservationBloodCellsExample"
-        },
-        "name": "CustomObservationBloodCellsExample",
-        "description": "example",
-        "exampleCanonical": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/custom-observation-blood-cells"
       }
     ],
     "page": {

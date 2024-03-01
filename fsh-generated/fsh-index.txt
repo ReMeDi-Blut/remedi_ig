@@ -1,7 +1,5 @@
-Output File                                              Name                                Type       FSH File                        Lines
-BiologicallyDerivedProduct-BeispielBlutspende.json       BeispielBlutspende                  Instance   profiles\Blutspende.fsh         54 - 66
-Observation-CustomObservationBloodCellsExample.json      CustomObservationBloodCellsExample  Instance   profiles\haemozyten_profil.fsh  13 - 19
-StructureDefinition-Blutgruppe.json                      Blutgruppe                          Extension  profiles\Blutspende.fsh         47 - 52
-StructureDefinition-blood-1.json                         Blutspende                          Profile    profiles\Blutspende.fsh         5 - 44
-StructureDefinition-custom-observation-blood-cells.json  CustomObservationBloodCells         Profile    profiles\haemozyten_profil.fsh  3 - 11
-ValueSet-haemozyten.json                                 Haemozyten                          ValueSet   valuesets\haemozyten.fsh        1 - 20
+Output File                                         Name                   Type       FSH File                    Lines
+BiologicallyDerivedProduct-BeispielBlutspende.json  BeispielBlutspende     Instance   profiles/Blutspende.fsh     54 - 66
+StructureDefinition-Blutgruppe.json                 Blutgruppe             Extension  profiles/Blutspende.fsh     47 - 52
+StructureDefinition-blood-1.json                    Blutspende             Profile    profiles/Blutspende.fsh     5 - 44
+ValueSet-blood-products-value-set.json              BloodProductsValueSet  ValueSet   valuesets/bloodproduct.fsh  1 - 11
