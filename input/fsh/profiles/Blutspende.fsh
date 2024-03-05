@@ -14,6 +14,7 @@ Description: "Dieses Profil beschreibt eine Blutkonserve als die Ressource Biolo
 //* extension 1..
 //* extension contains Blutgruppe named Konserventyp 0..1
 //* extension[Konserventyp] ^isModifier = false
+* extension contains Blutgruppe named blutgruppe 0..1
 * identifier 1..1
 * productCategory 1..
 * productCategory = #fluid (exactly)
@@ -49,7 +50,7 @@ Id: Blutgruppe
 Context: url.value
 * ^url = "https://fhir.simplifier.net/Blut-Transfusionen/fhir/StructureDefinition/Blutgruppe"
 * ^status = #draft
-* value[x] only CodeableConcept
+* value[x]
 
 Instance: BeispielBlutspende
 InstanceOf: Blutspende
@@ -64,3 +65,6 @@ Usage: #example
 * collection.collectedDateTime = "2024-02-28T10:00:00Z"
 * collection.extension[Blutgruppe].valueString = "A"
 * collection.extension[Rhesusfaktor].valueString = "Positiv"
+* extension[blutgruppe].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/v2/0182"
+* extension[blutgruppe].valueCodeableConcept.coding[0].code = #A
+* extension[blutgruppe].valueCodeableConcept.coding[0].display = "Blutgruppe A"

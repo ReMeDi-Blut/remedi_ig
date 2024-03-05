@@ -34,6 +34,35 @@
   "differential": {
     "element": [
       {
+        "id": "BiologicallyDerivedProduct.extension",
+        "path": "BiologicallyDerivedProduct.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "BiologicallyDerivedProduct.extension:blutgruppe",
+        "path": "BiologicallyDerivedProduct.extension",
+        "sliceName": "blutgruppe",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.simplifier.net/Blut-Transfusionen/fhir/StructureDefinition/Blutgruppe"
+            ]
+          }
+        ]
+      },
+      {
         "id": "BiologicallyDerivedProduct.identifier",
         "path": "BiologicallyDerivedProduct.identifier",
         "min": 1,

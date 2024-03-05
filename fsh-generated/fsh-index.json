@@ -3,31 +3,31 @@
     "outputFile": "BiologicallyDerivedProduct-BeispielBlutspende.json",
     "fshName": "BeispielBlutspende",
     "fshType": "Instance",
-    "fshFile": "profiles/Blutspende.fsh",
-    "startLine": 54,
-    "endLine": 66
+    "fshFile": "profiles\\Blutspende.fsh",
+    "startLine": 55,
+    "endLine": 70
   },
   {
     "outputFile": "StructureDefinition-Blutgruppe.json",
     "fshName": "Blutgruppe",
     "fshType": "Extension",
-    "fshFile": "profiles/Blutspende.fsh",
-    "startLine": 47,
-    "endLine": 52
+    "fshFile": "profiles\\Blutspende.fsh",
+    "startLine": 48,
+    "endLine": 53
   },
   {
     "outputFile": "StructureDefinition-blood-1.json",
     "fshName": "Blutspende",
     "fshType": "Profile",
-    "fshFile": "profiles/Blutspende.fsh",
+    "fshFile": "profiles\\Blutspende.fsh",
     "startLine": 5,
-    "endLine": 44
+    "endLine": 45
   },
   {
     "outputFile": "ValueSet-blood-products-value-set.json",
     "fshName": "BloodProductsValueSet",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/bloodproduct.fsh",
+    "fshFile": "valuesets\\bloodproduct.fsh",
     "startLine": 1,
     "endLine": 11
   }

@@ -40,6 +40,20 @@
     ],
     "collectedDateTime": "2024-02-28T10:00:00Z"
   },
+  "extension": [
+    {
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0182",
+            "code": "A",
+            "display": "Blutgruppe A"
+          }
+        ]
+      },
+      "url": "https://fhir.simplifier.net/Blut-Transfusionen/fhir/StructureDefinition/Blutgruppe"
+    }
+  ],
   "productCategory": "fluid",
   "status": "available"
 }
