@@ -1,5 +1,5 @@
 Output File                                         Name                   Type       FSH File                    Lines
-BiologicallyDerivedProduct-BeispielBlutspende.json  BeispielBlutspende     Instance   profiles\Blutspende.fsh     55 - 70
-StructureDefinition-Blutgruppe.json                 Blutgruppe             Extension  profiles\Blutspende.fsh     48 - 53
-StructureDefinition-blood-1.json                    Blutspende             Profile    profiles\Blutspende.fsh     5 - 45
-ValueSet-blood-products-value-set.json              BloodProductsValueSet  ValueSet   valuesets\bloodproduct.fsh  1 - 11
+BiologicallyDerivedProduct-BeispielBlutspende.json  BeispielBlutspende     Instance   profiles/Blutspende.fsh     55 - 70
+StructureDefinition-Blutgruppe.json                 Blutgruppe             Extension  profiles/Blutspende.fsh     48 - 53
+StructureDefinition-blood-1.json                    Blutspende             Profile    profiles/Blutspende.fsh     5 - 45
+ValueSet-blood-products-value-set.json              BloodProductsValueSet  ValueSet   valuesets/bloodproduct.fsh  1 - 11
