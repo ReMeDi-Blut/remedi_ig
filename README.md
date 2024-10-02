@@ -7,7 +7,7 @@ Der Implmentation Guide Draft ist auf GitHub öffentlich erreichbar
 https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/index.html 
 
 
-## FHIR Data Processing
+## FHIR Data Processing 
 
 In dem Ordner [FHIR Data Processing](./fhir_data_processing) fidnen sich nützliche Python Skripte für das Verarbeiten von FHIR Daten. Eine der Hauptufunktionen in das Konvertieren von Ressourcen zu einem Import fertigem Bundle 
 
