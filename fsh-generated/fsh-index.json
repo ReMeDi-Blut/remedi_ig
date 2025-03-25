@@ -1,9 +1,17 @@
 [
   {
+    "outputFile": "StructureDefinition-RemediPatient.json",
+    "fshName": "RemediPatient",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_patient.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
     "outputFile": "StructureDefinition-donor.json",
     "fshName": "Donor",
     "fshType": "Profile",
-    "fshFile": "profiles/donor.fsh",
+    "fshFile": "profiles\\donor.fsh",
     "startLine": 1,
     "endLine": 18
   },
@@ -11,7 +19,7 @@
     "outputFile": "ValueSet-blood-products-value-set.json",
     "fshName": "BloodProductsValueSet",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/bloodproduct.fsh",
+    "fshFile": "valuesets\\bloodproduct.fsh",
     "startLine": 1,
     "endLine": 11
   }

@@ -1,3 +1,4 @@
-Output File                             Name                   Type      FSH File                    Lines
-StructureDefinition-donor.json          Donor                  Profile   profiles/donor.fsh          1 - 18
-ValueSet-blood-products-value-set.json  BloodProductsValueSet  ValueSet  valuesets/bloodproduct.fsh  1 - 11
+Output File                             Name                   Type      FSH File                      Lines
+StructureDefinition-RemediPatient.json  RemediPatient          Profile   profiles\profile_patient.fsh  1 - 5
+StructureDefinition-donor.json          Donor                  Profile   profiles\donor.fsh            1 - 18
+ValueSet-blood-products-value-set.json  BloodProductsValueSet  ValueSet  valuesets\bloodproduct.fsh    1 - 11

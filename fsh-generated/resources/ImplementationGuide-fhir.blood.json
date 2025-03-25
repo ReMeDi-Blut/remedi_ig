@@ -38,6 +38,14 @@
         "name": "Donor",
         "description": "Patient profile for a donor",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediPatient"
+        },
+        "name": "RemediPatient",
+        "description": "Needed Patient Information for the Blood Register",
+        "exampleBoolean": false
       }
     ],
     "page": {
