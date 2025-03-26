@@ -41,10 +41,114 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/RemediAdverseEvent"
+        },
+        "name": "RemediAdverseEvent",
+        "description": "Needed AdverseEvent Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediBiologicallyDerivedProduct"
+        },
+        "name": "RemediBiologicallyDerivedProduct",
+        "description": "Needed BiologicallyDerivedProduct Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediCondition"
+        },
+        "name": "RemediCondition",
+        "description": "Needed Condition Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediDiagnosticReport"
+        },
+        "name": "RemediDiagnosticReport",
+        "description": "Needed DiagnosticReport Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediEncounter"
+        },
+        "name": "RemediEncounter",
+        "description": "Needed Encounter Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediMedication"
+        },
+        "name": "RemediMedication",
+        "description": "Needed Medication Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediMedicationAdministration"
+        },
+        "name": "RemediMedicationAdministration",
+        "description": "Needed MedicationAdministration Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediObservation"
+        },
+        "name": "RemediObservation",
+        "description": "Needed Observation Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediOrganization"
+        },
+        "name": "RemediOrganization",
+        "description": "Needed Information of the organization for the blood register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/RemediPatient"
         },
         "name": "RemediPatient",
         "description": "Needed Patient Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediProcedure"
+        },
+        "name": "RemediProcedure",
+        "description": "Needed Information of the procedure for the blood register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediServiceRequest"
+        },
+        "name": "RemediServiceRequest",
+        "description": "Needed ServiceRequest Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediSpecimen"
+        },
+        "name": "RemediSpecimen",
+        "description": "Needed Specimen Information for the Blood Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RemediSupplyDelivery"
+        },
+        "name": "RemediSupplyDelivery",
+        "description": "Needed SupplyDelivery Information for the Blood Register",
         "exampleBoolean": false
       }
     ],

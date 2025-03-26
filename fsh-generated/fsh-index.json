@@ -1,9 +1,113 @@
 [
   {
+    "outputFile": "StructureDefinition-RemediAdverseEvent.json",
+    "fshName": "RemediAdverseEvent",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_adverse_event.fsh",
+    "startLine": 1,
+    "endLine": 4
+  },
+  {
+    "outputFile": "StructureDefinition-RemediBiologicallyDerivedProduct.json",
+    "fshName": "RemediBiologicallyDerivedProduct",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_biologically_derived_product.fsh",
+    "startLine": 1,
+    "endLine": 3
+  },
+  {
+    "outputFile": "StructureDefinition-RemediCondition.json",
+    "fshName": "RemediCondition",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_condition.fsh",
+    "startLine": 1,
+    "endLine": 4
+  },
+  {
+    "outputFile": "StructureDefinition-RemediDiagnosticReport.json",
+    "fshName": "RemediDiagnosticReport",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_diagnostic_report.fsh",
+    "startLine": 1,
+    "endLine": 4
+  },
+  {
+    "outputFile": "StructureDefinition-RemediEncounter.json",
+    "fshName": "RemediEncounter",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_encounter.fsh",
+    "startLine": 1,
+    "endLine": 4
+  },
+  {
+    "outputFile": "StructureDefinition-RemediMedication.json",
+    "fshName": "RemediMedication",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_medication.fsh",
+    "startLine": 1,
+    "endLine": 3
+  },
+  {
+    "outputFile": "StructureDefinition-RemediMedicationAdministration.json",
+    "fshName": "RemediMedicationAdministration",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_medication_administration.fsh",
+    "startLine": 1,
+    "endLine": 4
+  },
+  {
+    "outputFile": "StructureDefinition-RemediObservation.json",
+    "fshName": "RemediObservation",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_observation.fsh",
+    "startLine": 1,
+    "endLine": 4
+  },
+  {
+    "outputFile": "StructureDefinition-RemediOrganization.json",
+    "fshName": "RemediOrganization",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_organization.fsh",
+    "startLine": 1,
+    "endLine": 3
+  },
+  {
     "outputFile": "StructureDefinition-RemediPatient.json",
     "fshName": "RemediPatient",
     "fshType": "Profile",
     "fshFile": "profiles\\profile_patient.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "StructureDefinition-RemediProcedure.json",
+    "fshName": "RemediProcedure",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_procedure.fsh",
+    "startLine": 1,
+    "endLine": 3
+  },
+  {
+    "outputFile": "StructureDefinition-RemediServiceRequest.json",
+    "fshName": "RemediServiceRequest",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_service_request.fsh",
+    "startLine": 1,
+    "endLine": 3
+  },
+  {
+    "outputFile": "StructureDefinition-RemediSpecimen.json",
+    "fshName": "RemediSpecimen",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_specimen.fsh",
+    "startLine": 1,
+    "endLine": 4
+  },
+  {
+    "outputFile": "StructureDefinition-RemediSupplyDelivery.json",
+    "fshName": "RemediSupplyDelivery",
+    "fshType": "Profile",
+    "fshFile": "profiles\\profile_supply_delivery.fsh",
     "startLine": 1,
     "endLine": 5
   },
