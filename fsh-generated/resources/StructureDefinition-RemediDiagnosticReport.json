@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RemediDiagnosticReport",
+  "url": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/RemediDiagnosticReport",
+  "name": "RemediDiagnosticReport",
+  "status": "draft",
+  "description": "Needed DiagnosticReport Information for the Blood Register",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DiagnosticReport",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DiagnosticReport.subject",
+        "path": "DiagnosticReport.subject",
+        "min": 1
+      }
+    ]
+  }
+}

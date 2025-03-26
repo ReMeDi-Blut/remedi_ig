@@ -1,0 +1,22 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RemediBiologicallyDerivedProduct",
+  "url": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/RemediBiologicallyDerivedProduct",
+  "name": "RemediBiologicallyDerivedProduct",
+  "status": "draft",
+  "description": "Needed BiologicallyDerivedProduct Information for the Blood Register",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "BiologicallyDerivedProduct",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "BiologicallyDerivedProduct",
+        "path": "BiologicallyDerivedProduct"
+      }
+    ]
+  }
+}

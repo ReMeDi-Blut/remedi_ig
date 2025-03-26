@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RemediCondition",
+  "url": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/RemediCondition",
+  "name": "RemediCondition",
+  "status": "draft",
+  "description": "Needed Condition Information for the Blood Register",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition.encounter",
+        "path": "Condition.encounter",
+        "min": 1
+      }
+    ]
+  }
+}

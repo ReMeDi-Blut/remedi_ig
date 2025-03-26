@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RemediObservation",
+  "url": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/RemediObservation",
+  "name": "RemediObservation",
+  "status": "draft",
+  "description": "Needed Observation Information for the Blood Register",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "min": 1
+      }
+    ]
+  }
+}

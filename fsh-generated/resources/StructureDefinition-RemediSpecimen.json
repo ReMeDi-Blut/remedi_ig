@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RemediSpecimen",
+  "url": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/RemediSpecimen",
+  "name": "RemediSpecimen",
+  "status": "draft",
+  "description": "Needed Specimen Information for the Blood Register",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Specimen",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Specimen",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Specimen.subject",
+        "path": "Specimen.subject",
+        "min": 1
+      }
+    ]
+  }
+}

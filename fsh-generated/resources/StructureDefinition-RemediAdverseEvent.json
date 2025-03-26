@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RemediAdverseEvent",
+  "url": "https://build.fhir.org/ig/ReMeDi-Blut/remedi_ig/StructureDefinition/RemediAdverseEvent",
+  "name": "RemediAdverseEvent",
+  "status": "draft",
+  "description": "Needed AdverseEvent Information for the Blood Register",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "AdverseEvent",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/AdverseEvent",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "AdverseEvent.encounter",
+        "path": "AdverseEvent.encounter",
+        "min": 1
+      }
+    ]
+  }
+}
