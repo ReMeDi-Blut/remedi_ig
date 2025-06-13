@@ -1,16 +1,9 @@
-[BloodProductsValueSet]: ValueSet-blood-products-value-set.html
-[Donor]: StructureDefinition-donor.html
 [RemediAdverseEvent]: StructureDefinition-RemediAdverseEvent.html
-[RemediBiologicallyDerivedProduct]: StructureDefinition-RemediBiologicallyDerivedProduct.html
 [RemediCondition]: StructureDefinition-RemediCondition.html
 [RemediDiagnosticReport]: StructureDefinition-RemediDiagnosticReport.html
 [RemediEncounter]: StructureDefinition-RemediEncounter.html
-[RemediMedication]: StructureDefinition-RemediMedication.html
 [RemediMedicationAdministration]: StructureDefinition-RemediMedicationAdministration.html
 [RemediObservation]: StructureDefinition-RemediObservation.html
-[RemediOrganization]: StructureDefinition-RemediOrganization.html
 [RemediPatient]: StructureDefinition-RemediPatient.html
-[RemediProcedure]: StructureDefinition-RemediProcedure.html
-[RemediServiceRequest]: StructureDefinition-RemediServiceRequest.html
 [RemediSpecimen]: StructureDefinition-RemediSpecimen.html
 [RemediSupplyDelivery]: StructureDefinition-RemediSupplyDelivery.html

@@ -25,34 +25,10 @@
     "resource": [
       {
         "reference": {
-          "reference": "ValueSet/blood-products-value-set"
-        },
-        "name": "BloodProductsValueSet",
-        "description": "ValueSet for Blood Products including SNOMED CT and LOINC codes.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/donor"
-        },
-        "name": "Donor",
-        "description": "Patient profile for a donor",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/RemediAdverseEvent"
         },
         "name": "RemediAdverseEvent",
         "description": "Needed AdverseEvent Information for the Blood Register",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/RemediBiologicallyDerivedProduct"
-        },
-        "name": "RemediBiologicallyDerivedProduct",
-        "description": "Needed BiologicallyDerivedProduct Information for the Blood Register",
         "exampleBoolean": false
       },
       {
@@ -81,14 +57,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/RemediMedication"
-        },
-        "name": "RemediMedication",
-        "description": "Needed Medication Information for the Blood Register",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/RemediMedicationAdministration"
         },
         "name": "RemediMedicationAdministration",
@@ -105,34 +73,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/RemediOrganization"
-        },
-        "name": "RemediOrganization",
-        "description": "Needed Information of the organization for the blood register",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/RemediPatient"
         },
         "name": "RemediPatient",
         "description": "Needed Patient Information for the Blood Register",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/RemediProcedure"
-        },
-        "name": "RemediProcedure",
-        "description": "Needed Information of the procedure for the blood register",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/RemediServiceRequest"
-        },
-        "name": "RemediServiceRequest",
-        "description": "Needed ServiceRequest Information for the Blood Register",
         "exampleBoolean": false
       },
       {

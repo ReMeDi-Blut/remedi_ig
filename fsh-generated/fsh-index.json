@@ -8,14 +8,6 @@
     "endLine": 4
   },
   {
-    "outputFile": "StructureDefinition-RemediBiologicallyDerivedProduct.json",
-    "fshName": "RemediBiologicallyDerivedProduct",
-    "fshType": "Profile",
-    "fshFile": "profiles\\profile_biologically_derived_product.fsh",
-    "startLine": 1,
-    "endLine": 3
-  },
-  {
     "outputFile": "StructureDefinition-RemediCondition.json",
     "fshName": "RemediCondition",
     "fshType": "Profile",
@@ -40,14 +32,6 @@
     "endLine": 4
   },
   {
-    "outputFile": "StructureDefinition-RemediMedication.json",
-    "fshName": "RemediMedication",
-    "fshType": "Profile",
-    "fshFile": "profiles\\profile_medication.fsh",
-    "startLine": 1,
-    "endLine": 3
-  },
-  {
     "outputFile": "StructureDefinition-RemediMedicationAdministration.json",
     "fshName": "RemediMedicationAdministration",
     "fshType": "Profile",
@@ -64,36 +48,12 @@
     "endLine": 4
   },
   {
-    "outputFile": "StructureDefinition-RemediOrganization.json",
-    "fshName": "RemediOrganization",
-    "fshType": "Profile",
-    "fshFile": "profiles\\profile_organization.fsh",
-    "startLine": 1,
-    "endLine": 3
-  },
-  {
     "outputFile": "StructureDefinition-RemediPatient.json",
     "fshName": "RemediPatient",
     "fshType": "Profile",
     "fshFile": "profiles\\profile_patient.fsh",
     "startLine": 1,
     "endLine": 5
-  },
-  {
-    "outputFile": "StructureDefinition-RemediProcedure.json",
-    "fshName": "RemediProcedure",
-    "fshType": "Profile",
-    "fshFile": "profiles\\profile_procedure.fsh",
-    "startLine": 1,
-    "endLine": 3
-  },
-  {
-    "outputFile": "StructureDefinition-RemediServiceRequest.json",
-    "fshName": "RemediServiceRequest",
-    "fshType": "Profile",
-    "fshFile": "profiles\\profile_service_request.fsh",
-    "startLine": 1,
-    "endLine": 3
   },
   {
     "outputFile": "StructureDefinition-RemediSpecimen.json",
@@ -110,21 +70,5 @@
     "fshFile": "profiles\\profile_supply_delivery.fsh",
     "startLine": 1,
     "endLine": 5
-  },
-  {
-    "outputFile": "StructureDefinition-donor.json",
-    "fshName": "Donor",
-    "fshType": "Profile",
-    "fshFile": "profiles\\donor.fsh",
-    "startLine": 1,
-    "endLine": 18
-  },
-  {
-    "outputFile": "ValueSet-blood-products-value-set.json",
-    "fshName": "BloodProductsValueSet",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\bloodproduct.fsh",
-    "startLine": 1,
-    "endLine": 11
   }
 ]
