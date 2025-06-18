@@ -1,1 +1,11 @@
-##Test Seite
+3## FHIR-Profiles
+
+- [RemediAdverseEvent](StructureDefinition-RemediAdverseEvent.html)
+- [RemediCondition](StructureDefinition-RemediCondition.html)
+- [RemediDiagnosticReport](StructureDefinition-RemediDiagnosticReport.html)
+- [RemediEncounter](StructureDefinition-RemediEncounter.html)
+- [RemediMedicationAdministration](StructureDefinition-RemediMedicationAdministration.html)
+- [RemediObservation](StructureDefinition-RemediObservation.html)
+- [RemediPatient](StructureDefinition-RemediPatient.html)
+- [RemediSpecimen](StructureDefinition-RemediSpecimen.html)
+- [RemediSupplyDelivery](StructureDefinition-RemediSupplyDelivery.html)
