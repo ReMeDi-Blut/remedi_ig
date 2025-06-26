@@ -4,7 +4,7 @@ StructureDefinition-RemediCondition.json                 RemediCondition        
 StructureDefinition-RemediDiagnosticReport.json          RemediDiagnosticReport          Profile  profiles\profile_diagnostic_report.fsh          1 - 4
 StructureDefinition-RemediEncounter.json                 RemediEncounter                 Profile  profiles\profile_encounter.fsh                  1 - 4
 StructureDefinition-RemediMedicationAdministration.json  RemediMedicationAdministration  Profile  profiles\profile_medication_administration.fsh  1 - 4
-StructureDefinition-RemediObservation.json               RemediObservation               Profile  profiles\profile_observation.fsh                1 - 4
+StructureDefinition-RemediObservation.json               RemediObservation               Profile  profiles\profile_observation.fsh                1 - 5
 StructureDefinition-RemediPatient.json                   RemediPatient                   Profile  profiles\profile_patient.fsh                    1 - 5
 StructureDefinition-RemediSpecimen.json                  RemediSpecimen                  Profile  profiles\profile_specimen.fsh                   1 - 4
-StructureDefinition-RemediSupplyDelivery.json            RemediSupplyDelivery            Profile  profiles\profile_supply_delivery.fsh            1 - 5
+StructureDefinition-RemediSupplyDelivery.json            RemediSupplyDelivery            Profile  profiles\profile_supply_delivery.fsh            1 - 4

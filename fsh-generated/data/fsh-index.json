@@ -45,7 +45,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\profile_observation.fsh",
     "startLine": 1,
-    "endLine": 4
+    "endLine": 5
   },
   {
     "outputFile": "StructureDefinition-RemediPatient.json",
@@ -69,6 +69,6 @@
     "fshType": "Profile",
     "fshFile": "profiles\\profile_supply_delivery.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 4
   }
 ]

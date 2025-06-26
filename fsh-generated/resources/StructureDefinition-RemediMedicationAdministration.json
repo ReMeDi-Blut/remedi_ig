@@ -14,9 +14,8 @@
   "differential": {
     "element": [
       {
-        "id": "MedicationAdministration.context",
-        "path": "MedicationAdministration.context",
-        "min": 1
+        "id": "MedicationAdministration",
+        "path": "MedicationAdministration"
       }
     ]
   }

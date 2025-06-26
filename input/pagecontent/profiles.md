@@ -1,4 +1,3 @@
-3## FHIR-Profiles
 
 - [RemediAdverseEvent](StructureDefinition-RemediAdverseEvent.html)
 - [RemediCondition](StructureDefinition-RemediCondition.html)
